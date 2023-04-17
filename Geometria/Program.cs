@@ -11,3 +11,5 @@ float altezzaRettangoloUser = float.Parse(Console.ReadLine());
 Rettangolo rettangolo1 = new Rettangolo(baseRettangoloUser, altezzaRettangoloUser);
 
 rettangolo1.StampaRettangolo();
+
+rettangolo1.DisegnaRettangolo();
